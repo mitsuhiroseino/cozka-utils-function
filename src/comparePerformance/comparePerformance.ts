@@ -1,6 +1,6 @@
 import rotate from '@cozka/utils-array/rotate';
 import measure from '../measure';
-import tabulateResult from './tabulateResult';
+import _tabulateResult from './_tabulateResult';
 import {
   MeasurementAgenda,
   MeasurementResult,
@@ -65,7 +65,7 @@ export default function comparePerformance<
   }
 
   // 平均値の計算を行う
-  const averageResult = tabulateResult(targets, results),
+  const averageResult = _tabulateResult(targets, results),
     // 終了日時
     end = new Date();
 

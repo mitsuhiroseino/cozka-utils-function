@@ -1,5 +1,5 @@
 import rotate from '@cozka/utils-array/rotate';
-import tabulateResult from '../comparePerformance/tabulateResult';
+import tabulateResult from '../comparePerformance/_tabulateResult';
 import measureAsync from '../measureAsync';
 import {
   MeasurementAsyncAgenda,
