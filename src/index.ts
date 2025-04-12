@@ -8,6 +8,8 @@ export { default as comparePerformanceAsync } from './comparePerformanceAsync';
 export { default as measure } from './measure';
 export { default as measureAsync } from './measureAsync';
 export { default as relayAsync } from './relayAsync';
+export { default as requestInterval } from './requestInterval';
+export { default as requestTimeout } from './requestTimeout';
 export { default as runSequential } from './runSequential';
 export { default as sleep } from './sleep';
 export { default as wait } from './wait';
